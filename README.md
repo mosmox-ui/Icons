@@ -6,6 +6,17 @@ The package provides **1,512 icons**, available as named React components or thr
 
 ## Installation
 
+### Monorepo usage
+
+The framework demo uses the local icons package from the [`mosmox-ui`](../performance-benchmarks/apps/mosmox-ui/) application:
+
+```bash
+cd performance-benchmarks/apps/mosmox-ui
+npm install ../../../icons
+```
+
+### Published package
+
 ```bash
 npm install @mosmox/icons
 ```
