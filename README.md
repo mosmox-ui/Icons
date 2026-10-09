@@ -6,27 +6,14 @@ The package provides **1,512 icons**, available as named React components or thr
 
 ## Installation
 
-### Monorepo usage
-
-The framework demo uses the local icons package from the [`mosmox-ui`](../performance-benchmarks/apps/mosmox-ui/) application:
+The framework demo uses the local `icons` package from the [`mosmox-ui`](https://github.com/mosmox-ui/PrivateUI/tree/main/performance-benchmarks/apps/mosmox-ui) application:
 
 ```bash
 cd performance-benchmarks/apps/mosmox-ui
 npm install ../../../icons
 ```
 
-### Published package
-
-```bash
-npm install @mosmox/icons
-```
-
-```bash
-pnpm add @mosmox/icons
-yarn add @mosmox/icons
-```
-
-The package requires React 18 or newer as a peer dependency.
+The package is currently consumed from the monorepository and is not published to npm. It requires React 18 or newer as a peer dependency.
 
 ## Quick start
 
@@ -239,5 +226,5 @@ This package contains a separate Mosmox React wrapper; it does not depend on or 
 ## Links
 
 - [Mosmox documentation](https://mosmox-ui.github.io/)
-- [npm package](https://www.npmjs.com/package/@mosmox/icons)
+- [Icons repository](https://github.com/mosmox-ui/Icons)
 - [Phosphor Icons v2.1.0](https://github.com/phosphor-icons/homepage/releases/tag/v2.1.0)
