@@ -6,11 +6,17 @@ The package provides **1,512 icons**, available as named React components or thr
 
 ## Installation
 
-The framework demo uses the local `icons` package from the [`mosmox-ui`](https://github.com/mosmox-ui/PrivateUI/tree/main/performance-benchmarks/apps/mosmox-ui) application:
+Install the package from npm:
 
 ```bash
-cd performance-benchmarks/apps/mosmox-ui
-npm install ../../../icons
+npm install @mosmox-ui/icons
+```
+
+Other package managers:
+
+```bash
+pnpm add @mosmox-ui/icons
+yarn add @mosmox-ui/icons
 ```
 
 The package requires React 18 or newer as a peer dependency.
