@@ -231,6 +231,5 @@ This package contains a separate Mosmox React wrapper; it does not depend on or 
 
 ## Links
 
-- [Mosmox documentation](https://mosmox-ui.github.io/)
 - [Icons repository](https://github.com/mosmox-ui/Icons)
 - [Phosphor Icons v2.1.0](https://github.com/phosphor-icons/homepage/releases/tag/v2.1.0)
