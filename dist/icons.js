@@ -1,1 +1,1 @@
-export { iconData, iconNames } from './icon-data';
+export { iconData, iconNames } from './icon-data.js';

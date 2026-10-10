@@ -1,6 +1,6 @@
-import { type IconName } from './icon-data';
-import type { IconProps } from './types';
-export type { IconProps } from './types';
+import { type IconName } from './icon-data.js';
+import type { IconProps } from './types.js';
+export type { IconProps } from './types.js';
 export interface NamedIconProps extends IconProps {
     name: IconName | string;
 }

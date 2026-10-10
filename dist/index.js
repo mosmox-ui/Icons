@@ -1,3 +1,3 @@
-export { Icon } from './Icon';
-export { iconData, iconNames } from './icon-data';
-export * from './icons';
+export { Icon } from './Icon.js';
+export { iconData, iconNames } from './icon-data.js';
+export * from './icons.js';

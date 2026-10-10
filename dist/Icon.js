@@ -1,6 +1,6 @@
 import { jsx as _jsx } from "react/jsx-runtime";
 import { forwardRef } from 'react';
-import { iconData } from './icon-data';
+import { iconData } from './icon-data.js';
 export const Icon = forwardRef(function Icon({ name, color = 'currentColor', size = '1em', weight = 'regular', mirrored = false, style, ...props }, ref) {
     const icon = iconData[name];
     const content = icon?.[weight] ?? icon?.regular ?? '';
