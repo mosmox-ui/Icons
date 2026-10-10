@@ -1,4 +1,4 @@
-# @mosmox/icons
+# @mosmox-ui/icons
 
 Customizable React SVG icons for Mosmox UI and other React applications.
 
@@ -13,14 +13,14 @@ cd performance-benchmarks/apps/mosmox-ui
 npm install ../../../icons
 ```
 
-The package is currently consumed from the monorepository and is not published to npm. It requires React 18 or newer as a peer dependency.
+The package requires React 18 or newer as a peer dependency.
 
 ## Quick start
 
 Import any icon by its PascalCase component name:
 
 ```tsx
-import { Airplane, Heart, MagnifyingGlass } from '@mosmox/icons';
+import { Airplane, Heart, MagnifyingGlass } from '@mosmox-ui/icons';
 
 export function Toolbar() {
   return (
@@ -46,7 +46,7 @@ Icons are inline SVG elements and inherit the surrounding text color by default:
 Use `Icon` when the icon name comes from configuration, a data model, or another runtime source:
 
 ```tsx
-import { Icon } from '@mosmox/icons';
+import { Icon } from '@mosmox-ui/icons';
 
 export function StatusIcon({ name }: { name: string }) {
   return <Icon name={name} size={24} color="#d90b2c" weight="regular" />;
@@ -58,7 +58,7 @@ export function StatusIcon({ name }: { name: string }) {
 You can also access the catalog and its type:
 
 ```tsx
-import { Icon, iconNames, type IconName } from '@mosmox/icons';
+import { Icon, iconNames, type IconName } from '@mosmox-ui/icons';
 
 const name: IconName = 'heart';
 const availableNames = iconNames;
@@ -177,7 +177,7 @@ assets/
 For example:
 
 ```text
-@mosmox/icons/assets/regular/airplane.svg
+@mosmox-ui/icons/assets/regular/airplane.svg
 ```
 
 Use the React components for application UI. Use the SVG assets when a non-React tool, static HTML page, design tool, or build pipeline needs the source artwork.
@@ -187,7 +187,7 @@ Use the React components for application UI. Use the SVG assets when a non-React
 The package exports the main types used by the API:
 
 ```tsx
-import type { IconName, IconProps, IconWeight, NamedIconProps } from '@mosmox/icons';
+import type { IconName, IconProps, IconWeight, NamedIconProps } from '@mosmox-ui/icons';
 ```
 
 `IconName` is the union of all catalog names. `IconWeight` is the union of the six supported weights. `IconProps` extends the standard React SVG props with `color`, `size`, `weight`, and `mirrored`. `NamedIconProps` extends `IconProps` with the dynamic `name` property.
