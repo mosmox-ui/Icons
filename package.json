@@ -1,8 +1,13 @@
 {
   "name": "@mosmox-ui/icons",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Customizable React SVG icons for Mosmox UI.",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mosmox-ui/Icons.git"
+  },
+  "homepage": "https://ui.mosmox.com/docs/",
   "type": "module",
   "sideEffects": false,
   "files": ["src", "assets", "dist", "LICENSE", "README.md"],
